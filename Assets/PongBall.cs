@@ -5,9 +5,9 @@ public class PongBall : MonoBehaviour
     Rigidbody2D rb;
     Vector2 movementVector;
     public float speedMultiplier = 1.1f;
-    public float maxSpeed = 25f;
+    public float maxSpeed = 20f;
     float speed = 5f;
-    float force = 80f;
+    float force = 90f;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
